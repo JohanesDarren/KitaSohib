@@ -1,0 +1,27 @@
+import React from 'react';
+
+interface CardProps {
+  children: React.ReactNode;
+  className?: string;
+  hoverEffect?: boolean;
+  glass?: boolean;
+}
+
+const Card: React.FC<CardProps> = ({ 
+  children, 
+  className = '', 
+  hoverEffect = true,
+  glass = false 
+}) => {
+  const baseStyles = "rounded-3xl p-6 md:p-8 transition-all duration-300";
+  const bgStyles = glass ? "glass-card" : "bg-white shadow-soft border border-slate-100";
+  const hoverStyles = hoverEffect ? "hover:-translate-y-2 hover:shadow-xl" : "";
+
+  return (
+    <div className={`${baseStyles} ${bgStyles} ${hoverStyles} ${className}`}>
+      {children}
+    </div>
+  );
+};
+
+export default Card;
