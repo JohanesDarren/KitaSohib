@@ -3,21 +3,21 @@ import { motion } from 'framer-motion';
 import { Calendar } from 'lucide-react';
 
 const galleryItems = [
-    { src: '/galeri/IMG_7812.jpg', title: 'Rapat untuk Acara Sosialisasi', author: 'Hustler', date: '20 Februari 2026', text: 'Diskusi panjang mengenai rancangan acara Sosialisasi.' },
-    { src: '/galeri/20260212_182316.jpg', title: 'Uji Coba Aplikasi kepada Remaja dan Mitra', author: 'KitaSohib Team', date: '12 Feb 2026', text: 'Pengembangan fitur chat interaktif dengan menyematkan AI Gemini langsung ke antarmuka React JS.' },
-    { src: '/galeri/20251226_075842.jpg', title: 'Perumusan Ide Pertama', author: 'Hipster', date: '26 Des 2025', text: 'Momen berharga rapat pertama kami membentuk konsep aplikasi edukasi kesehatan mental untuk remaja.' },
-    { src: '/galeri/IMG_1582.jpg', title: 'Pelatihan Dasar BK', author: 'KitaSohib Team', date: '22 Februari 2026', text: 'Pelatihan Dasar Bimbingan Konseling untuk pembekalan anggota Sentra Kreasi.' },
-    { src: '/galeri/20260204_091627.jpg', title: 'Konsultasi dengan Dosen Psikologi Telkom University', author: 'Hustler & Hipster', date: '4 Feb 2026', text: 'Pembimbingan terkait logika AI dan alur aplikasi dengan penyesuaian fitur-fitur yang ada bersama dosen psikologi.' },
-    { src: '/galeri/20260204_093019.jpg', title: 'Teori Aplikasi Mental', author: 'Hustler & Hacker', date: '4 Feb 2026', text: 'Pemantapan nilai-nilai aplikasi dari sisi teori psikologi dan pendidikan.' },
-    { src: '/galeri/20260206_092422.jpg', title: 'Uji Coba Aplikasi Pertama dengan Mitra', author: 'KitaSohib Team', date: '6 Feb 2026', text: 'Mengecek kembalikesesuaian format pertanyaan pada fitur tes emosi agar berstandar validitas pengalaman pihak mitra.' },
-    { src: '/galeri/IMG_1633.jpg', title: 'Sosialisasi dengan Keluarga Sentra Kreasi', author: 'KitaSohib Team', date: '22 Februari 2026', text: 'Implementasi final terkait aplikasi dan penyerahan secara resmi kepada Sentra Kreasi.' },
-    { src: '/galeri/20260212_175515.jpg', title: 'Testing Aplikasi ke Remaja Sesi I', author: 'Hacker & Hipster', date: '12 Feb 2026', text: 'Meninjau fungsionalitas aplikasi di setiap perangkat berbeda menjelang target tenggat waktu kompetisi.' },
-    { src: '/galeri/20260212_182359.jpg', title: 'Testing Aplikasi ke Remaja Sesi II', author: 'Hacker & Hipster', date: '12 Feb 2026', text: 'Sesi perbaikan kolaboratif antar tim untuk membunuh beberapa error navigasi dan efek animasi lamban di halaman utama.' },
-    { src: '/galeri/IMG_7808.jpg', title: 'Penyusunan Pitch Deck', author: 'Hustler', date: '20 Februari 2026', text: 'Pembuatan slide presentasi deck yang ditujukan untuk memperlihatkan potensi manfaat aplikasi pada babak final.' },
-    { src: '/galeri/WhatsApp Image 2026-02-04 at 07.31.09.jpeg', title: 'Kunjungan Perdana ke Sentra Kreasi', author: 'KitaSohib Team', date: '4 Jan 2026', text: 'Pelaporan singkat dari tiap divisi melalui grup aplikasi obrolan mengenai tugas-tugas setiap harinya sebelum bekerja.' },
-    { src: '/galeri/20260206_092650.jpg', title: 'Perancangan Aplikasi Lanjut', author: 'Hustler & Hacker', date: '6 Feb 2026', text: 'Sesi diskusi hangat mengenai umpan balik dan keluhan masukan yang disampaikan dari mitra dan deklarasi kebutuhan aplikasi.' },
-    { src: '/galeri/WhatsApp Image 2026-02-04 at 07.31.11.jpeg', title: 'Standup Singkat bersama Sentra Kreasi', author: 'KitaSohib Team', date: '4 Jan 2026', text: 'Tangkapan laporan layar harian koordinasi dan pemastian tak ada tumpang tindih pengerjaan antar anggota.' },
-    { src: '/galeri/20260204_093733.jpg', title: 'Sinkronisasi Backend', author: 'Hustler & Hacker', date: '4 Feb 2026', text: 'Tahap penggabungan seluruh logika kode belakang layar dan pengerjaan ulang algoritma rekomendasi jawaban chatbot cerdas berdasar teori psikologi dan pendidikan.' }
+    { src: '/galeri/Meeting Acara Sosialisasi.jpg', title: 'Rapat untuk Acara Sosialisasi', author: 'Hustler', date: '20 Februari 2026', text: 'Diskusi panjang mengenai rancangan acara Sosialisasi.' },
+    { src: '/galeri/implementasi aplikasi kepada remaja dan mitra.jpg', title: 'Uji Coba Aplikasi kepada Remaja dan Mitra', author: 'KitaSohib Team', date: '12 Feb 2026', text: 'Pengembangan fitur chat interaktif dengan menyematkan AI Gemini langsung ke antarmuka React JS.' },
+    { src: '/galeri/meeting bersama sentra kreasi.jpg', title: 'Perumusan Ide Pertama', author: 'Hipster', date: '26 Des 2025', text: 'Momen berharga rapat pertama kami membentuk konsep aplikasi edukasi kesehatan mental untuk remaja.' },
+    { src: '/galeri/Pelatihan Dasar Bimbingan Konseling.jpg', title: 'Pelatihan Dasar BK', author: 'KitaSohib Team', date: '22 Februari 2026', text: 'Pelatihan Dasar Bimbingan Konseling untuk pembekalan anggota Sentra Kreasi.' },
+    { src: '/galeri/konsultasi dengan dosen psikolog telkom university.jpg', title: 'Konsultasi dengan Dosen Psikologi Telkom University', author: 'Hustler & Hipster', date: '4 Feb 2026', text: 'Pembimbingan terkait logika AI dan alur aplikasi dengan penyesuaian fitur-fitur yang ada bersama dosen psikologi.' },
+    { src: '/galeri/pemantapan nilai-nilai aplikasi dari sisi teori psikolog.jpg', title: 'Teori Aplikasi Mental', author: 'Hustler & Hacker', date: '4 Feb 2026', text: 'Pemantapan nilai-nilai aplikasi dari sisi teori psikologi dan pendidikan.' },
+    { src: '/galeri/uji coba aplikasi bersama sentra kreasi.jpg', title: 'Uji Coba Aplikasi Pertama dengan Mitra', author: 'KitaSohib Team', date: '6 Feb 2026', text: 'Mengecek kembalikesesuaian format pertanyaan pada fitur tes emosi agar berstandar validitas pengalaman pihak mitra.' },
+    { src: '/galeri/Sosialisasi dan Pengesahan Aplikasi.jpg', title: 'Sosialisasi dengan Keluarga Sentra Kreasi', author: 'KitaSohib Team', date: '22 Februari 2026', text: 'Implementasi final terkait aplikasi dan penyerahan secara resmi kepada Sentra Kreasi.' },
+    { src: '/galeri/implementasi alur platform kepada remaja .jpg', title: 'Testing Aplikasi ke Remaja Sesi I', author: 'Hacker & Hipster', date: '12 Feb 2026', text: 'Meninjau fungsionalitas aplikasi di setiap perangkat berbeda menjelang target tenggat waktu kompetisi.' },
+    { src: '/galeri/uji coba aplikasi dengan perwakilan mitra.jpg', title: 'Testing Aplikasi ke Remaja Sesi II', author: 'Hacker & Hipster', date: '12 Feb 2026', text: 'Sesi perbaikan kolaboratif antar tim untuk membunuh beberapa error navigasi dan efek animasi lamban di halaman utama.' },
+    { src: '/galeri/Rapat Pelatihan bersama Pembicara.jpg', title: 'Penyusunan Pitch Deck', author: 'Hustler', date: '20 Februari 2026', text: 'Pembuatan slide presentasi deck yang ditujukan untuk memperlihatkan potensi manfaat aplikasi pada babak final.' },
+    { src: '/galeri/Kunjungan Perdana ke Sentra Kreasi.jpeg', title: 'Kunjungan Perdana ke Sentra Kreasi', author: 'KitaSohib Team', date: '4 Jan 2026', text: 'Pelaporan singkat dari tiap divisi melalui grup aplikasi obrolan mengenai tugas-tugas setiap harinya sebelum bekerja.' },
+    { src: '/galeri/perancangan aplikasi lanjut bersama mitra.jpg', title: 'Perancangan Aplikasi Lanjut', author: 'Hustler & Hacker', date: '6 Feb 2026', text: 'Sesi diskusi hangat mengenai umpan balik dan keluhan masukan yang disampaikan dari mitra dan deklarasi kebutuhan aplikasi.' },
+    { src: '/galeri/Meeting pertama terkait platform bersama sentra kreasi.jpeg', title: 'Standup Singkat bersama Sentra Kreasi', author: 'KitaSohib Team', date: '4 Jan 2026', text: 'Tangkapan laporan layar harian koordinasi dan pemastian tak ada tumpang tindih pengerjaan antar anggota.' },
+    { src: '/galeri/uji coba aplikasi dengan dosen psikolog telkom university.jpg', title: 'Sinkronisasi Backend', author: 'Hustler & Hacker', date: '4 Feb 2026', text: 'Tahap penggabungan seluruh logika kode belakang layar dan pengerjaan ulang algoritma rekomendasi jawaban chatbot cerdas berdasar teori psikologi dan pendidikan.' }
 ];
 
 const Gallery: React.FC = () => {
@@ -73,7 +73,7 @@ const Gallery: React.FC = () => {
                                     className="w-full h-auto object-cover group-hover:scale-[1.03] transition-transform duration-500 ease-in-out"
                                     loading="lazy"
                                     onError={(e) => {
-                                        (e.target as HTMLImageElement).src = "https://picsum.photos/seed/kitasohib/400/500";
+                                        (e.target as HTMLImageElement).src = `https://picsum.photos/seed/kitasohib${index}/400/500`;
                                     }}
                                 />
                                 {/* Overlay gradient */}
