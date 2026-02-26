@@ -7,8 +7,17 @@ const CTA: React.FC = () => {
       <div className="max-w-5xl mx-auto">
         <div className="relative rounded-[2rem] overflow-hidden px-6 py-16 md:px-20 md:py-20 text-center shadow-2xl shadow-primary/20 bg-gradient-to-br from-[#2F5FD0] to-[#4C7DF0] dark:from-blue-900 dark:to-blue-800">
 
+          {/* Background Image Texture */}
+          <div className="absolute inset-0 w-full h-full mix-blend-overlay opacity-20 pointer-events-none z-0">
+            <img
+              src="/galeri/IMG_1633.jpg"
+              alt=""
+              className="w-full h-full object-cover"
+            />
+          </div>
+
           {/* Clean Overlay Pattern */}
-          <div className="absolute top-0 right-0 w-full h-full overflow-hidden z-0 opacity-20">
+          <div className="absolute top-0 right-0 w-full h-full overflow-hidden z-0 opacity-20 pointer-events-none">
             <div className="absolute top-0 right-0 w-96 h-96 bg-white rounded-full blur-[100px] -translate-y-1/2 translate-x-1/2"></div>
             <div className="absolute bottom-0 left-0 w-96 h-96 bg-white rounded-full blur-[100px] translate-y-1/2 -translate-x-1/2"></div>
           </div>

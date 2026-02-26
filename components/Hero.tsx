@@ -6,11 +6,11 @@ import { motion, AnimatePresence } from 'framer-motion';
 const Hero: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'chat' | 'test' | 'forum'>('chat');
   return (
-    <section className="relative pt-36 pb-20 px-4 md:px-8 min-h-screen flex items-center justify-center overflow-hidden bg-background dark:bg-slate-900 transition-colors">
+    <section className="relative pt-36 pb-20 px-4 md:px-8 min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-blue-100 via-blue-200 to-blue-400/60 dark:from-slate-900 dark:via-blue-900/50 dark:to-indigo-950 transition-colors">
 
       {/* Background Soft Gradients - Adjusted for Blue Theme */}
-      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-primary-100/60 dark:bg-primary-900/30 rounded-full blur-[120px] -translate-y-1/3 translate-x-1/4 pointer-events-none" />
-      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-100/50 dark:bg-blue-900/40 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4 pointer-events-none" />
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-blue-300/60 dark:bg-blue-600/30 rounded-full blur-[120px] -translate-y-1/3 translate-x-1/4 pointer-events-none" />
+      <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-blue-400/50 dark:bg-indigo-600/40 rounded-full blur-[100px] translate-y-1/3 -translate-x-1/4 pointer-events-none" />
 
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-24 items-center relative z-10">
 

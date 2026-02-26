@@ -9,6 +9,7 @@ import Developers from './components/Developers';
 import FAQ from './components/FAQ';
 import CTA from './components/CTA';
 import Footer from './components/Footer';
+import Gallery from './components/Gallery';
 
 const App: React.FC = () => {
   return (
@@ -24,6 +25,7 @@ const App: React.FC = () => {
 
         <Features />
         <About />
+        <Gallery />
         <Developers />
         <Partners />
         <FAQ />
