@@ -1,11 +1,11 @@
 import React from 'react'; // Needed for JSX in features
-import { 
-  Users, 
-  MessageCircleHeart, 
-  Activity, 
-  BookOpen, 
-  CalendarCheck, 
-  ShieldCheck 
+import {
+  Users,
+  MessageCircleHeart,
+  Activity,
+  BookOpen,
+  CalendarCheck,
+  ShieldCheck
 } from 'lucide-react';
 import { NavLink, Feature, Step, FAQItemData } from './types';
 
@@ -24,8 +24,8 @@ export const FEATURES: Feature[] = [
   },
   {
     icon: React.createElement(MessageCircleHeart, { className: "w-8 h-8 text-pink-500" }),
-    title: "Chat dengan Psikolog",
-    desc: "Akses konseling profesional langsung dari HP. Ngobrol via chat atau video call dengan psikolog remaja berlisensi."
+    title: "Pengarahan Minat Bakat",
+    desc: "Kenali potensimu lebih jauh! Kami menyediakan platform untuk mengarahkan minat dan bakatmu agar kamu bisa meraih masa depan dengan lebih mantap."
   },
   {
     icon: React.createElement(Activity, { className: "w-8 h-8 text-secondary" }),
@@ -34,13 +34,13 @@ export const FEATURES: Feature[] = [
   },
   {
     icon: React.createElement(BookOpen, { className: "w-8 h-8 text-accent" }),
-    title: "Pojok Wawasan",
-    desc: "Kumpulan artikel, tips, dan video psikoedukasi yang relate dengan kehidupan remaja. Bukan sekadar teori membosankan."
+    title: "Kegiatan Kolaborasi",
+    desc: "Ikuti berbagai kegiatan seru dan bermanfaat dari kolaborasi bersama mitra terpercaya kami, yaitu Sentra Kreasi."
   },
   {
     icon: React.createElement(CalendarCheck, { className: "w-8 h-8 text-indigo-500" }),
-    title: "Agenda Kesehatan Mental",
-    desc: "Fitur daily challenge dan reminder untuk self-care. Bangun kebiasaan positif kecil setiap harinya."
+    title: "AI Rekomendasi Karir",
+    desc: "Isi tes kepribadian unik kami dan biarkan Sohib AI memberikan rekomendasi jenjang karir terbaik khusus untukmu."
   },
   {
     icon: React.createElement(ShieldCheck, { className: "w-8 h-8 text-emerald-500" }),
@@ -52,8 +52,8 @@ export const FEATURES: Feature[] = [
 export const STEPS: Step[] = [
   {
     num: "01",
-    title: "Download & Daftar",
-    desc: "Gratis di App Store & Play Store. Cuma butuh username unik, nggak perlu nama asli."
+    title: "Akses Web & Daftar",
+    desc: "Langsung akses dari web, tidak perlu download! Cuma butuh username unik, nggak perlu nama asli."
   },
   {
     num: "02",
@@ -73,8 +73,8 @@ export const FAQS: FAQItemData[] = [
     answer: "Aman banget! Privasi kamu adalah prioritas nomor satu di KitaSohib. Semua obrolan terenkripsi dan kamu bisa menggunakan fitur anonim (nama samaran). Kami tidak akan membagikan datamu ke pihak ketiga tanpa izinmu."
   },
   {
-    question: "Apakah aplikasinya gratis?",
-    answer: "Yes! Fitur dasar seperti curhat ke Sohib AI, Mood Tracker, dan Forum Komunitas itu 100% GRATIS selamanya. Untuk sesi konseling mendalam dengan psikolog profesional, ada biaya terjangkau khusus kantong pelajar."
+    question: "Apakah sistemnya gratis?",
+    answer: "Yes! Fitur dasar seperti curhat ke Sohib AI, Mood Tracker, Tes Kepribadian, hingga Rekomendasi Karir itu 100% GRATIS selamanya. Semuanya bisa diakses langsung via web app."
   },
   {
     question: "Siapa yang bisa menggunakan KitaSohib?",

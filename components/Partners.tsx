@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 
 const Partners: React.FC = () => {
   return (
-    <section className="py-16 px-4 md:px-8 bg-white border-y border-slate-100">
+    <section className="py-16 px-4 md:px-8 bg-white dark:bg-transparent border-y border-slate-100 dark:border-slate-800">
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
           <motion.div
@@ -23,10 +23,10 @@ const Partners: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="flex flex-col sm:flex-row items-center gap-6 group grayscale hover:grayscale-0 transition-all duration-500 bg-slate-50/50 p-5 md:p-6 rounded-2xl border border-transparent hover:border-primary-100 hover:bg-white hover:shadow-soft"
+            className="flex flex-col sm:flex-row items-center gap-6 group grayscale hover:grayscale-0 transition-all duration-500 bg-slate-50/50 dark:bg-slate-800/30 p-5 md:p-6 rounded-2xl border border-transparent hover:border-primary-100 dark:hover:border-primary-800 hover:bg-white dark:hover:bg-slate-800 hover:shadow-soft"
           >
             {/* Container Logo: Ukuran disesuaikan menjadi medium (w-20 ke w-24) */}
-            <div className="w-20 h-20 md:w-24 md:h-24 bg-white rounded-xl flex items-center justify-center shadow-sm overflow-hidden border border-slate-100">
+            <div className="w-20 h-20 md:w-24 md:h-24 bg-white dark:bg-slate-700 rounded-xl flex items-center justify-center shadow-sm overflow-hidden border border-slate-100 dark:border-slate-600">
               <img
                 src="https://i.imgur.com/kkViKWK.jpeg"
                 alt="Sentra Kreasi Logo"
@@ -40,7 +40,7 @@ const Partners: React.FC = () => {
 
             <div className="flex flex-col items-center sm:items-start text-center sm:text-left">
               {/* Tipografi: Dikecilkan sedikit ke text-2xl/3xl agar lebih elegan */}
-              <span className="text-2xl md:text-3xl font-bold text-slate-800 group-hover:text-primary transition-colors tracking-tight">
+              <span className="text-2xl md:text-3xl font-bold text-slate-800 dark:text-slate-200 group-hover:text-primary dark:group-hover:text-blue-400 transition-colors tracking-tight">
                 Sentra Kreasi
               </span>
               {/* Link: Kembali ke ukuran yang lebih compact */}

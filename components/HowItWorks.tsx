@@ -3,8 +3,8 @@ import React from 'react';
 const steps = [
   {
     num: "01",
-    title: "Download & Daftar",
-    desc: "Gratis di App Store & Play Store. Cuma butuh username unik, nggak perlu nama asli."
+    title: "Akses Web & Daftar",
+    desc: "Akses langsung via web! Cuma butuh username unik, nggak perlu nama asli."
   },
   {
     num: "02",

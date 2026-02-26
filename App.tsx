@@ -12,14 +12,14 @@ import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen bg-background font-sans text-slate-900 selection:bg-accent-100 selection:text-accent-500">
+    <div className="min-h-screen bg-background dark:bg-slate-900 font-sans text-slate-900 dark:text-slate-100 selection:bg-accent-100 selection:text-accent-500">
       <Navbar />
       <main>
         <Hero />
-        
+
         {/* Live Demo Section */}
-        <section className="bg-gradient-to-b from-white to-slate-50">
-           <MoodCheck />
+        <section className="bg-gradient-to-b from-white to-slate-50 dark:from-slate-900 dark:to-slate-800">
+          <MoodCheck />
         </section>
 
         <Features />
