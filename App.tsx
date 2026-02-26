@@ -7,7 +7,6 @@ import About from './components/About';
 import Features from './components/Features';
 import Developers from './components/Developers';
 import FAQ from './components/FAQ';
-import CTA from './components/CTA';
 import Footer from './components/Footer';
 import Gallery from './components/Gallery';
 
@@ -29,7 +28,6 @@ const App: React.FC = () => {
         <Developers />
         <Partners />
         <FAQ />
-        <CTA />
       </main>
       <Footer />
     </div>

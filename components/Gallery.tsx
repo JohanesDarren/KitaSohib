@@ -22,7 +22,7 @@ const galleryItems = [
 
 const Gallery: React.FC = () => {
     return (
-        <section id="gallery" className="py-24 px-4 md:px-8 bg-gradient-to-br from-blue-100 to-blue-200/80 dark:from-blue-900/40 dark:via-slate-900 dark:to-[#0B1120] border-t border-blue-200 dark:border-blue-900/50 relative z-0">
+        <section id="gallery" className="py-24 px-4 md:px-8 bg-gradient-to-b from-blue-100 to-white dark:from-blue-900/40 dark:to-slate-900 border-none relative z-0">
             <div className="max-w-[1400px] mx-auto relative z-10">
                 <div className="flex flex-col md:flex-row justify-between items-end mb-12 gap-6">
                     <div className="max-w-xl">

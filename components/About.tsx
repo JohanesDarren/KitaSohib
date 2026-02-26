@@ -3,12 +3,12 @@ import { STEPS } from '../constants';
 
 const About: React.FC = () => {
   return (
-    <section id="about" className="py-24 px-4 md:px-8 bg-indigo-50/20 dark:bg-indigo-900/10 relative overflow-hidden">
+    <section id="about" className="py-24 px-4 md:px-8 bg-gradient-to-b from-indigo-50/20 to-blue-100 dark:from-indigo-900/10 dark:to-blue-900/40 relative overflow-hidden z-0 border-none">
       {/* Decorative Elements & Subtle Background Image */}
       <img
         src="/galeri/IMG_7812.jpg"
         alt=""
-        className="absolute inset-0 w-full h-full object-cover opacity-[0.03] dark:opacity-[0.05] pointer-events-none mix-blend-multiply dark:mix-blend-overlay z-0"
+        className="absolute inset-0 w-full h-full object-cover opacity-[0.03] dark:opacity-[0.05] pointer-events-none mix-blend-multiply dark:mix-blend-overlay z-0 [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]"
       />
       <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-primary-100 dark:from-primary-900/50 via-secondary-100 dark:via-secondary-900/50 to-accent-100 dark:to-accent-900/50 -translate-y-1/2 z-0"></div>
       <div className="absolute top-20 right-0 w-64 h-64 bg-primary-50 dark:bg-primary-900/20 rounded-full blur-3xl opacity-60 z-0"></div>

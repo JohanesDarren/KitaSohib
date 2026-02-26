@@ -20,7 +20,7 @@ const steps = [
 
 const HowItWorks: React.FC = () => {
   return (
-    <section className="py-20 px-4 md:px-8 bg-white relative overflow-hidden">
+    <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-white to-indigo-50/20 dark:from-slate-900 dark:to-indigo-900/10 relative overflow-hidden z-0 border-none">
       {/* Decorative Line */}
       <div className="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gradient-to-r from-primary-100 via-secondary-100 to-accent-100 -translate-y-1/2 z-0"></div>
 

@@ -22,7 +22,7 @@ const MoodCheck: React.FC = () => {
   };
 
   return (
-    <section className="py-24 px-4 md:px-8 relative overflow-hidden bg-white dark:bg-transparent">
+    <section className="py-24 px-4 md:px-8 relative overflow-hidden bg-gradient-to-b from-blue-400/60 to-blue-50/80 dark:from-indigo-950 dark:to-slate-900/90 z-0">
       {/* Background accents */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-0 right-0 w-[500px] h-[500px] bg-primary-50 dark:bg-primary-900/20 rounded-full blur-[100px] opacity-60 translate-x-1/3 -translate-y-1/3" />

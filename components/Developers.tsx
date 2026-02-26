@@ -28,7 +28,7 @@ const developers = [
 
 const Developers: React.FC = () => {
   return (
-    <section id="developers" className="py-24 px-4 md:px-8 bg-sky-50/30 dark:bg-sky-900/10">
+    <section id="developers" className="py-24 px-4 md:px-8 bg-gradient-to-b from-white to-blue-50/20 dark:from-slate-900 dark:to-slate-900/40 border-none relative z-0">
       <div className="max-w-6xl mx-auto">
         <div className="text-center max-w-3xl mx-auto mb-16">
           <motion.span

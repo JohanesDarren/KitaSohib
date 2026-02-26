@@ -3,8 +3,17 @@ import { motion } from 'framer-motion';
 
 const Partners: React.FC = () => {
   return (
-    <section className="py-16 px-4 md:px-8 bg-white dark:bg-transparent border-y border-slate-100 dark:border-slate-800">
-      <div className="max-w-6xl mx-auto">
+    <section className="py-16 px-4 md:px-8 bg-gradient-to-b from-blue-50/20 to-slate-50 dark:from-slate-900/40 dark:to-slate-900 border-none relative overflow-hidden z-0">
+      {/* Background Image Texture */}
+      <div className="absolute inset-0 w-full h-full mix-blend-multiply dark:mix-blend-overlay opacity-5 pointer-events-none z-[-1] [mask-image:linear-gradient(to_bottom,transparent,black_20%,black_80%,transparent)]">
+        <img
+          src="/galeri/Meeting Acara Sosialisasi.jpg"
+          alt=""
+          className="w-full h-full object-cover"
+        />
+      </div>
+
+      <div className="max-w-6xl mx-auto relative z-10">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
           <motion.div
             initial={{ opacity: 0 }}
